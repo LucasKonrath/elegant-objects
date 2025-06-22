@@ -1,0 +1,5 @@
+Elegant Objects is a software design philosophy introduced by Yegor Bugayenko. It emphasizes immutability, encapsulation, and object-oriented purity, encouraging developers to create small, focused, and composable objects.
+
+A key recommendation is to avoid naming classes with the -er suffix (like Manager, Controller, Handler). Such names often indicate procedural thinking, where objects are responsible for performing actions rather than representing entities or concepts. This leads to "God objects" that violate the Single Responsibility Principle and make code harder to maintain and extend.
+
+Instead, Elegant Objects suggests naming classes after real-world entities or concepts, focusing on what the object is, not what it does. This results in more readable, maintainable, and testable code that leverages the strengths of object-oriented design.
