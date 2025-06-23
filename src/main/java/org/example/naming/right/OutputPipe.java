@@ -1,4 +1,4 @@
-package org.example.naming.wrong.right;
+package org.example.naming.right;
 
 import java.io.InputStream;
 
